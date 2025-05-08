@@ -1,0 +1,13 @@
+{
+  "name": "com.rewards.trigger",
+  "description": "Native messaging host for Rewards Automation Controller.",
+  "path": "C:\\Program Files\\nodejs\\node.exe", // Automatically set to common Node.js path
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ajjimnlfbpknomjnmdpdnolpplannknc/" // TODO: Replace __EXTENSION_ID__ with your actual Edge extension's ID after loading
+  ]
+}
+
+// Windows Registry registration example:
+// reg add "HKCU\Software\Google\Chrome\NativeMessagingHosts\com.rewards.trigger" /ve /t REG_SZ /d "C:\\Users\\LENOVO\\OneDrive\\Documents\\controller\\native-trigger\\com.rewards.trigger.json" /f
+// The JSON path above is set to your current workspace location.

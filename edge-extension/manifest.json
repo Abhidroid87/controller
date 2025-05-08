@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Rewards Automation Controller",
+  "version": "1.0.0",
+  "description": "Automates part of the Microsoft Rewards search process.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "https://rewards.bing.com/*"
+  ]
+  // TODO: Replace with your actual extension ID after publishing
+  // "key": "<YOUR_EXTENSION_ID>"
+}
